@@ -1,6 +1,6 @@
 import NickNameData from "./NickNameData.json";
 
-const randomName = (NickNameData) => {
+export const randomNameGenerator = (NickNameData) => {
   return (
     NickNameData.determiners[
       Math.floor(Math.random() * NickNameData.determiners.length)
