@@ -1,11 +1,12 @@
 {
   "name": "korean-random-names-generator",
   "version": "0.0.0",
+  "type": "module",
   "description": "this package generate korean random nick name, for example 똑똑한 호랑이",
-  "main": "RandomNameGenerator.js",
+  "main": "./src/RandomNameGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "homepage": "https://github.com/axios/axios"
+    "homepage": "https://github.com/YeonSeong-Lee/korean-ramdom-naems-generator"
   },
   "keywords": [
     "random_name_generator",
